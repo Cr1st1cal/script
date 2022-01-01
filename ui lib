@@ -155,10 +155,10 @@ local library = {
 	windows = {},
     pointers = {},
     settings = {
-        guiname = "Hexagon",
-		title = "Hexagon [Exodus Edition]",
-		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
-        footer = " Exodus Winning $$$",
+        guiname = "cutieware",
+		title = "cutieware [cris made]",
+		logo = "https://web.roblox.com/library/4660604224/Love-heart-eyes?Category=Decals&SortType=Relevance&SortAggregation=AllTime&SearchKeyword=love+heart&CreatorId=0&Page=1&Position=37&SearchId=ebf2416e-9245-443a-ac9a-49d140abb6b1", -- "http://www.roblox.com/asset/?id=6597976562",
+        footer = " hottest script maker out there",
         modal = true,
         font = Enum.Font.SourceSans,
         textsize = 16,
@@ -1962,8 +1962,8 @@ end)
 --]]
 local function GetConfigs()
 	cfgs = {}
-	for i,v in pairs(syn_io_listdir("hexhub")) do
-		if v:sub(-10) == ".hexhubcfg" then
+	for i,v in pairs(syn_io_listdir("cutiehub")) do
+		if v:sub(-10) == ".cutiehubcfg" then
 			table.insert(cfgs, string.split(v, ".")[1]:sub(8))
 		end
 	end

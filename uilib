@@ -1962,8 +1962,8 @@ end)
 --]]
 local function GetConfigs()
 	cfgs = {}
-	for i,v in pairs(syn_io_listdir("cutiehub")) do
-		if v:sub(-10) == ".cutiehubcfg" then
+	for i,v in pairs(syn_io_listdir("viennahub")) do
+		if v:sub(-10) == ".viennahubcfg" then
 			table.insert(cfgs, string.split(v, ".")[1]:sub(8))
 		end
 	end

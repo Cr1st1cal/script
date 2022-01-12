@@ -155,8 +155,8 @@ local library = {
 	windows = {},
     pointers = {},
     settings = {
-        guiname = "Viennaware",
-		title = "Viennaware",
+        guiname = "Knifeware",
+		title = "Knifeware",
 		logo = "https://web.roblox.com/library/4660604224", -- "http://www.roblox.com/asset/?id=6597976562",
         footer = " hottest script maker out there",
         modal = true,
